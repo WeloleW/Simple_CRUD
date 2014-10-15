@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple CRUD</title>
+
+    <!-- Bootstrap -->
+    <link href="Bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="Bootstrap/css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="main" class="container">
+        <div class="row">
+            <div class="navbar navbar-default">
+                <ul class="nav">
+                    <li><a class="navbar-brand">Simple CRUD</a></li>
+                    <li><a class="navbar-right">Sign out</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Photo</td>
+                        <td>Title</td>
+                        <td>Description</td>
+                    </tr>
+                </thead>
+                <tbody class="table-hover">
+                    <tr>
+                        <td><img src="http://www.calorizator.ru/sites/default/files/product/banana.jpg" class="img-responsive col-xs-12"></td>
+                        <td>Банан</td>
+                        <td>Не забудь!ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal" id="Product" tabindex="-1" role="dialog" aria-labelledby="ProductLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="ProductLabel"></h3>
+        </div>
+        <div class="modal-body">
+            <div class="photo"></div>
+            <p class="description"></p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-primary">Save changes</button>
+        </div>
+    </div>
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="main.js"></script>
+<script src="../../../../Users/Lena/Desktop/Bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
